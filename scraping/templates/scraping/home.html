@@ -1,0 +1,37 @@
+{% extends 'scraping/base.html' %}
+{% block title %}home{% endblock %}
+
+{% block content %}
+
+{% for object in object_list %}
+
+    <div class="card my-2 text-center-4">
+      <div class="card-header">
+        <a href="{{ object.url }}" style="font-style: italic;font-size: 29px">{{ object.title }}</a>
+      </div>
+      <div class="card-body">
+          <h4>{{ object.company }}</h4>
+        <p class="card-text">{{ object.description }}</p>
+        <p class="card-text" style="font-style: italic">{{ object.city.name }}|{{ object.language.name }}</p>
+
+
+      </div>
+      <div class="card-footer text-body-secondary">
+        <label style="color: blue">{{ object.timestamp|date:'d M Y'}}</label>
+      </div>
+    </div>
+{% empty %}
+<h3>По вашевому запросу ничего не найдено</h3>
+    {% endfor %}
+<div class="row ">
+      <div class="col-md-6 mx-auto">
+      <form method= 'GET' action="">
+        <div class="form-control">
+          {{ form.as_p }}
+          <button type="submit" class="btn btn-primary">Найти</button>
+        </div>
+      </form>
+      </div>
+    </div>
+<br>
+  {% endblock %}

@@ -6,13 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="5c309e6a-cc59-45ae-8651-63ae2b1a853d" name="Changes" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping_servis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping_servis/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping_servis/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping_servis/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/templates/scraping/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/templates/scraping/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,12 +29,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lib/site-packages/django/db/models/manager.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/scraping/__init__.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scraping/admin.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scraping/apps.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/scraping/models.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scraping/forms.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/scraping/models.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/scraping/templates/scraping/base.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/scraping/templates/scraping/experiventi.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/scraping/templates/scraping/home.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/scraping/utils.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/scraping/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scraping/views.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/scraping_servis/settings.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scraping_servis/urls.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -51,6 +61,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -109,7 +120,15 @@
       <workItem from="1690002452193" duration="7384000" />
       <workItem from="1690181007211" duration="11705000" />
       <workItem from="1690355744875" duration="5225000" />
-      <workItem from="1690437922763" duration="3133000" />
+      <workItem from="1690437922763" duration="8536000" />
+      <workItem from="1690542050936" duration="335000" />
+      <workItem from="1690542404060" duration="88000" />
+      <workItem from="1690542512956" duration="6697000" />
+      <workItem from="1690644288505" duration="4294000" />
+      <workItem from="1690651577324" duration="160000" />
+      <workItem from="1690651750987" duration="220000" />
+      <workItem from="1690705905119" duration="1169000" />
+      <workItem from="1690707092422" duration="7699000" />
     </task>
     <servers />
   </component>
